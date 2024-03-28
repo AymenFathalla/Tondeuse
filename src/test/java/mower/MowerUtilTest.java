@@ -51,7 +51,7 @@ public class MowerUtilTest {
 
     @Test
     public void testProcessInputFile_EmptyInputFile() throws IOException {
-        String inputFileName = "empty_input.txt";
+        String inputFileName = "src/test/resources/empty_input.txt";
         File inputFile = new File(inputFileName);
         inputFile.createNewFile(); // Create an empty file
 
